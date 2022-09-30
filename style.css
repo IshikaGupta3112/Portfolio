@@ -1,0 +1,152 @@
+*{
+    margin :0px;
+    padding:0px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+#navbar{
+    display:flex;
+    /* justify-content:right; */
+    align-items: center;
+    position:sticky;
+  background-color: rgb(34, 32, 32);
+    
+}
+#navbar ul{
+
+    display:flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin :2rem 4rem;
+    
+}
+#navbar ul li {
+    font-size: 5rem;
+}
+#navbar ul li a{
+    color:white;
+    font-size: 2rem;
+    padding : 1rem 3rem;
+   text-decoration: none;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#navbar ul li a:hover{
+color:grey;
+}
+h1{
+    margin : 7rem;
+    margin-bottom:3rem;
+    font-size: 7rem;
+    text-align: center;
+
+}
+.image{
+    
+    margin : 3rem;
+    margin-top:7rem ;
+    margin-right: 5rem;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.image img{
+    height:40rem;
+    width: 25rem;
+    border-radius: 2rem;
+}
+.para{
+    font-size: 5rem;
+    margin: 5rem;
+    margin-top:10rem;
+    margin-left:10rem;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.about{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.abouts{
+    margin:2rem;
+    font-size: 4rem;
+}
+#skill{
+    display:flex;
+    /* flex-wrap:wrap; */
+    /* flex-direction: column; */
+   /* margin:1rem; */
+   align-items: center;
+   justify-content:space-evenly;
+}
+#skill .box{
+   border:2px solid black;
+    margin:1rem;
+    padding:1rem;
+} 
+#skill .box img{
+    height:17rem;
+    display:block;
+    margin:auto;
+}
+.paras{
+    font-size:2rem;
+    text-align: center;
+}
+h2{
+    margin-top:1rem;
+    font-size:3rem;
+    text-align: center;
+}
+.text{
+    list-style: circle;
+    margin:3rem;
+}
+.contact{
+    background-color: rgb(34, 32, 32);
+}
+.contact h1{
+    color:white;
+}
+.new{
+    color:white;
+}
+.boxes img{
+    height:13rem;
+    border-radius: 3rem;
+}
+input{
+    padding:1rem;
+    margin: 1rem;
+    width:20rem;
+    display:block;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.message{
+    margin-top:5rem;
+    margin-left:10rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+.me{
+    margin:4rem;
+    display:flex;
+    justify-content: center;
+}
+.news{
+    color:white;
+    margin:10rem;
+}
+button{
+    color:black;
+    margin:1rem;
+    margin-top:0;
+    margin-left:8rem;
+    text-align: center;
+    padding:1rem;
+    border-radius: 1rem;
+}
