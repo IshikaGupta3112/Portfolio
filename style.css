@@ -83,6 +83,8 @@ h1{
 }
 #skill{
     display:flex;
+    justify-content: center;
+    align-items: center;
     margin:1rem;
 }
 #skill .box{
@@ -174,8 +176,37 @@ button{
     background-color: black;
     padding:1rem;
 }
-@media (max-width:1024px){
-    body{
-        background-color: red;
-    }
+@media (max-width:2048px){
+   #skill{
+    flex-direction:column;
+   }
+   .image{
+    flex-direction:column;
+    height:30rem;
+    padding:7rem;
+   }
+   .img p{
+    font-size:1rem;
+    padding:2rem;
+   }
+   #cont{
+    flex-wrap: wrap;
+   }
+   .boxes img{
+    height:4rem;
+   }
+   #navbar{
+    flex-direction: column;
+   }
+   #navbar ul li a{
+    font-size:2rem;
+    padding : 1rem 1rem;
+   }
+   .message form{
+    width:80% ;
+}
+#skill .box{
+     margin:2rem;
+     padding:2rem;
+ } 
 }
