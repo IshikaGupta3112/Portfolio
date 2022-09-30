@@ -64,8 +64,8 @@ h1{
 }
 
 .image img{
-    height:40rem;
-    width: 25rem;
+    height: 45rem;
+    width: 30rem;
     border-radius: 2rem;
 }
 .para{
@@ -79,7 +79,7 @@ h1{
 }
 .abouts{
     margin:2rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 #skill{
     display:flex;
@@ -134,7 +134,7 @@ z-index:-1;
     border-radius:2rem;
 }
 .message input{
-    width:100%;
+    width:93%;
     padding:1rem;
     margin: 1rem;
     border-radius: 0.5rem;
@@ -176,6 +176,10 @@ button{
     background-color: black;
     padding:1rem;
 }
+input[type='submit']{
+   margin-left:35%;
+   width:30%;
+}
 @media (max-width:2048px){
    #skill{
     flex-direction:column;
@@ -203,10 +207,20 @@ button{
     padding : 1rem 1rem;
    }
    .message form{
-    width:80% ;
+    width:70% ;
 }
 #skill .box{
      margin:2rem;
      padding:2rem;
  } 
+ .image img{
+    height: 35rem;
+    width: 22rem;
+}
+}
+@media (max-width:828px){
+input[type='submit']{
+    margin-left:42%;
+    width:30%;
+ }
 }
