@@ -223,4 +223,8 @@ input[type='submit']{
     margin-left:42%;
     width:30%;
  }
+ .image img{
+    height: 35rem;
+    width: 22rem;
+}
 }
