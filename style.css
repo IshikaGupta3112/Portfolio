@@ -180,7 +180,7 @@ input[type='submit']{
    margin-left:35%;
    width:30%;
 }
-@media (max-width:2048px){
+@media (max-width:1024px){
    #skill{
     flex-direction:column;
    }
@@ -218,7 +218,7 @@ input[type='submit']{
     width: 22rem;
 }
 }
-@media (max-width:828px){
+@media (max-width:414px){
 input[type='submit']{
     margin-left:42%;
     width:30%;
